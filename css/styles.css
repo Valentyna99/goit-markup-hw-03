@@ -155,15 +155,18 @@ color: #404bbf;
 }
 
 /* Our Advantages */
-.advantages {}
-
-.advantages-title {
-    text-align: center;
+.advantages {
+    padding: 120px 0;
 }
 
-.advantages-list {}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
 
-.advantages-item {}
+.advantages-item {
+    width: calc((100%-72px)/4);
+}
 
 .advantages-item-title {
     color:  #2E2F42;
@@ -171,6 +174,7 @@ color: #404bbf;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 .advantages-item-text {
     color: #434455;
