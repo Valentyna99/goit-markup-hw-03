@@ -63,7 +63,7 @@ a{
 }
 
 .header-menu-item {
-    
+   padding: 24px 0 ;
 }
 
 .header-menu-link  {
@@ -72,6 +72,7 @@ a{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
 .header-menu-link:hover{
     color: #404bbf;
@@ -89,7 +90,9 @@ color: #404bbf;
     gap: 40px;
 }
 
-.header-address-item {}
+.header-address-item {
+    padding: 24px 0;
+}
 
 .header-address-link{
     color:  #434455;
