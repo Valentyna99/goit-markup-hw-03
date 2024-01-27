@@ -187,6 +187,7 @@ color: #404bbf;
 
 .team {
     background: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -197,12 +198,22 @@ color: #404bbf;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.container-team-div{
+    padding-bottom: 32px;
+}
 
 .team-item {
     background: #FFF;
+   width: calc((100%-72px)/4);
+   border-radius: 0px 0px 4px 4px ;
+    
 }
 
 .team-img {
@@ -215,6 +226,8 @@ color: #404bbf;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .team-work {
@@ -223,6 +236,7 @@ color: #404bbf;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 /* Portfolio */
 .portfolio {}
